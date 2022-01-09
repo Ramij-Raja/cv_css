@@ -1,0 +1,141 @@
+/************ Class Selectors ************/
+
+.top-container {
+  background-color: #e4f9f5;
+}
+
+.short-bio {
+  color: #66bfbf;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  margin-top: 50px;
+  position: relative;
+  left: 250px;
+}
+
+.bottom-cloud {
+  position: absolute;
+}
+
+.mountain {
+  width: 60%;
+}
+
+.profile {
+  width: 60%;
+  margin: 50px auto;
+}
+
+.profile-pic {
+  width: 25%;
+}
+
+.education h2, .skills h2, .hobbies h2 {
+  margin-bottom: 70px;
+}
+
+.education {
+  width: 60%;
+  margin: auto;
+}
+
+.skill-row {
+  display: inline-block;
+  margin: 0 80px;
+}
+
+.hobby-row {
+  display: inline-block;
+  margin: 0 50px;
+}
+
+.btn {
+  background-color: #66bfbf;
+  border: 3px solid black;
+  border-radius: 7px;
+  color: white;
+  display: inline-block;
+  margin-top: 30px;
+  padding: 7px 12px;
+}
+
+.btn:hover {
+  background-color: #11999e;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  color: white;
+  padding: 50px 0 20px;
+  margin-top: 50px;
+}
+
+.footer-link {
+  color: #11999e;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.footer-link:hover {
+  color: white;
+}
+
+/************* CSS Selectors *************/
+
+a {
+  text-decoration: none;
+}
+body {
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+}
+h1 {
+  color: #66bfbf;
+  font-family: 'Dancing Script', cursive;
+  font-size: 3.5rem;
+  margin: 15px auto 0;
+}
+h2 {
+  color: #66bfbf;
+  font-family: 'Merienda', cursive;
+  font-size: 1.8rem;
+}
+h3 {
+  color: #11999e;
+  font-weight: normal;
+}
+hr {
+  width: 10%;
+  border: none;
+  border-top: 10px dotted #eaf6f6;
+  margin: 75px auto;
+}
+img.html ~ p i {
+  color: #ec6630;
+}
+img.css ~ p i {
+  color: #0096e6;
+}
+img.javascript ~ p i {
+  color: #eeaf4b;
+}
+table {
+  margin: 50px auto 0;
+  text-align: left;
+}
+td img {
+  width: 170px;
+  margin: 0 20px;
+}
+td p {
+  line-height: 1.6;
+}
+ul {
+  list-style: none;
+}
